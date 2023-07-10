@@ -50,10 +50,54 @@
     padding: 12px 20px;
     
 } 
-.bg-white{
+.bg-primary{
     background: red;
     color: white;
-}    
+} 
+.service-container{
+    height: 100vh;
+    background-image: url("asset/image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+} 
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+} 
+.box{
+    width: 150px;
+    height: 150px;
+    padding: 50px;
+    background: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+} 
+.service-description{
+    width: 50%;
+}
+.first-two-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
     
     
     
