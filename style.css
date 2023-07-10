@@ -96,7 +96,18 @@
 .author-container{
     display: flex;
     align-items: center;
+    gap: 20px;
+}
+.profile-container{
+    display: flex;
+    align-items: center;
     gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 40px;
+}
+.btn-author{
+    border-radius: 20px;
+    padding: 12px 20px;
 }
     
     
